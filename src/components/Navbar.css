@@ -1,0 +1,41 @@
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:25px 80px;
+}
+
+.logo{
+  font-size:32px;
+  font-weight:bold;
+}
+
+.logo span{
+  color:#ff6b00;
+}
+
+.nav-links{
+  display:flex;
+  list-style:none;
+  gap:40px;
+  border:1px solid #333;
+  padding:15px 30px;
+  border-radius:40px;
+}
+
+.nav-links li{
+  cursor:pointer;
+}
+
+.nav-links li:hover{
+  color:#ff6b00;
+}
+
+.resume-btn{
+  background:#ff6b00;
+  border:none;
+  color:white;
+  padding:15px 25px;
+  border-radius:30px;
+  cursor:pointer;
+}
