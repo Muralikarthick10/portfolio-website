@@ -2,13 +2,13 @@ function Projects() {
 
   const projects = [
     {
-      title: "E-Commerce Website",
-      image: "/ecommerce.png",
-      description:
-        "Built a full-stack E-Commerce application using Django, MySQL and Bootstrap.",
-      tech: "Django • SQL • Bootstrap",
-      github: "https://github.com/yourusername/ecommerce",
-      demo: "#"
+     title: "ShopKart E-Commerce",
+     image: "/ecommerce.png",
+     description:
+      "Full-stack E-Commerce platform with authentication, cart, wishlist, orders, admin dashboard and Cloudinary image hosting.",
+    tech: "Django • PostgreSQL • Bootstrap • Cloudinary",
+    github: "https://github.com/Muralikarthick10/ecommerce-main",
+    demo: "https://ecommerce-main-mu.vercel.app"
     },
 
     {
